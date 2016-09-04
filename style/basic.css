@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0 ;
+}
+body{
+    background: #fff;
+    width:760px;
+    margin: 0 auto;
+    font-size: 6px;
+}
+ul{
+    list-style: none;
+}
+#header{
+    width: 760px;
+    height: 190px;
+}
+span{
+    position: relative;
+    top: -3px;
+}
+
+#nav{
+    width: 760px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+#banner{
+    width: 760px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+#act{
+    width: 250px;
+    height: 226px;
+    background: #468 url("../image/jmd_bottom.jpg") no-repeat bottom;
+    float: left;
+    margin-bottom: 10px;
+}
+#act h1{
+    width: 250px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    background: url("../image/jmd_top.jpg") no-repeat top;
+}
+#act div{
+    width: 250px;
+    height: 188px;
+    background: url("../image/jmd_bg.jpg");
+}
+#act div ul{
+    width: 240px;
+    height: 188px;
+    margin: 0 auto;
+    text-indent: 40px;
+    overflow: auto;
+    color: #fff;
+    line-height: 150%;
+    scrollbar-face-color: #333;
+    scrollbar-highlight-color: #666;
+    scrollbar-shadow-color: #333;
+    scrollbar-3dlight-color: #999;
+    scrollbar-arrow-color: #999;
+    scrollbar-track-color: #000;
+}
+#act div ul span{
+    color:lightgreen;
+}
+
+#ad{
+    width: 250px;
+    height: 100px;
+    background: #4f8;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#video{
+    width:500px;
+    height: 336px;
+    background: #498 url("../image/flv_bottom.jpg") no-repeat bottom;
+    float: right;
+    margin-bottom: 10px;
+}
+#video h1{
+    width: 500px;
+    height: 31px;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    background: url("../image/flv_top.jpg") no-repeat top;
+}
+#video div{
+    width: auto;
+    height: 289px;
+    background: url("../image/flv_bg.jpg");
+    padding-left: 40px;
+    padding-top: 10px;
+}
+#video div span{
+    display: block;
+    width:320px;
+    height: 260px;
+    float: left;
+}
+#video div ul{
+    display: block;
+    width: 80px;
+    height: 260px;
+    float: left;
+    padding-left: 10px;
+}
+#video div strong{
+    display: block;
+    clear: both;
+    color: #fff;
+    height: 20px;
+    line-height: 20px;
+    text-indent: 20px;
+    font-weight: normal;
+}
+#video div ul li img{
+    width: 75px;
+    height: 55px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+#top{
+    width:250px;
+    height: 340px;
+    float: left;
+    background: #468 url("../image/jmd_bottom.jpg") no-repeat bottom;
+    margin-bottom: 10px;
+}
+#top h1{
+    width: 250px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    background: url("../image/jmd_top.jpg") no-repeat top;
+}
+
+#top div#ta{
+    width: 250px;
+    height: 302px;
+    background: url("../image/jmd_bg.jpg");
+}
+#top div#ta ul#sidebar{
+    display: block;
+    height:20px;
+    line-height: 20px;
+    width: 215px;
+    margin:0 auto;
+    border-bottom: 1px solid #5b5b5b;
+    padding-top: 7px;
+    padding-bottom: 2px;
+}
+#top div#ta ul#sidebar li{
+    float: left;
+    cursor: pointer;
+    width: 60px;
+    height: 20px;
+    margin-left: 5px;
+    color:#666;
+    text-align: center;
+    background: url("../image/libg.gif") no-repeat center;
+}
+#top div#ta #content div ul.music{
+    clear: both;
+    line-height: 210%;
+    margin-top:10px;
+    margin-left:25px;
+    color:#fff;
+    background: url("../image/music.gif") repeat-y 93%;
+}
+#top div#ta #content div ul.music li{
+    padding-left: 25px;
+}
+#top div#ta #content div ul.music li.one{
+    background: url("../image/1.gif") no-repeat left 38%;
+}
+#top div#ta #content div ul.music li.two{
+    background: url("../image/2.gif") no-repeat left 38%;
+}
+#top div#ta #content div ul.music li.three{
+    background: url("../image/3.gif") no-repeat left 38%;
+}
+#top div#ta #content div ul.music li.four{
+    background: url("../image/4.gif") no-repeat left 38%;
+}
+#top div#ta #content div ul.music li.five{
+    background: url("../image/5.gif") no-repeat left 38%;
+}
+#top div#ta #content div ul.music li.six{
+    background: url("../image/6.gif") no-repeat left 38%;
+}
+#top div#ta #content div ul.music li.seven{
+    background: url("../image/7.gif") no-repeat left 38%;
+}
+#top div#ta #content div ul.music li.eight{
+    background: url("../image/8.gif") no-repeat left 38%;
+}
+#top div#ta #content div ul.music li.nine{
+    background: url("../image/9.gif") no-repeat left 38%;
+}
+#top div#ta #content div ul.music li.ten{
+    background: url("../image/10.gif") no-repeat left 38%;
+}
+
+#commend{
+    width: 500px;
+    height:119px;
+    float: right;
+    margin-bottom: 10px;
+    background: #498 url("../image/flv_bottom.jpg") no-repeat bottom;
+
+}
+#commend h1{
+    width: 500px;
+    height: 31px;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    background: url("../image/flv_top.jpg") no-repeat top;
+}
+#commend div{
+    width: auto;
+    height: 82px;
+    background: url("../image/flv_bg.jpg");
+    padding-left: 18px;
+}
+#commend div img{
+    display: block;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+#partner{
+    width:500px;
+    height: 60px;
+    float: right;
+    margin-bottom: 10px;
+}
+#compere{
+    width:500px;
+    height:140px;
+    background: #498 url("../image/flv_bottom.jpg") no-repeat bottom;
+    float: right;
+    margin-bottom: 10px;
+}
+#compere h1{
+    width: 500px;
+    height: 31px;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    background: url("../image/flv_top.jpg") no-repeat top;
+}
+#compere div{
+    width: auto;
+    height: 103px;
+    background: url("../image/flv_bg.jpg");
+    padding-left: 40px;
+}
+#compere div dl{
+    width:200px;
+    height: 100px;
+    float: left;
+    padding-top: 10px;
+}
+#compere div dl dt{
+    width:82px;
+    height: 82px;
+    float: left;
+    padding-right: 10px;
+}
+#compere div dl dt img{
+    width:82px;
+    height: 82px;
+    display: block;
+}
+#compere div dl dd{
+    color: #fff;
+}
+
+#footer{
+    width: 760px;
+    height: 120px;
+    background:url("../image/footer.gif");
+    clear: both;
+}
+#footer ul{
+    display: block;
+    text-align: center;
+}
+#footer ul li{
+    display: inline;
+    color: #fff;
+}
+#footer ul li a{
+    text-decoration: none;
+    color: #999;
+}
+#footer p{
+    text-align: center;
+    color: #fff;
+}
